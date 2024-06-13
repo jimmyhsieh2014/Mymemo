@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_all_data"
+        android:icon="@drawable/home"
+        android:title="所有資料" />
+    <item
+        android:id="@+id/nav_add_edit"
+        android:icon="@drawable/pencil"
+        android:title="新增/編輯" />
+    <item
+        android:id="@+id/nav_other"
+        android:icon="@drawable/note"
+        android:title="其他" />
+</menu>

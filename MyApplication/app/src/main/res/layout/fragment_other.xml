@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 添加圖片 -->
+    <ImageView
+        android:id="@+id/blue_icon_image"
+        android:layout_width="wrap_content"
+        android:layout_height="266dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ntub" />
+
+    <!-- 隨便顯示一些內容 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue_icon_image"
+        android:text="組員:11056046張書翊 11056048張予綸 11056026謝定衡"
+        android:textSize="30sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
